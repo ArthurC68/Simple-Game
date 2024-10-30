@@ -12,7 +12,9 @@ if(lives <= 0 ){
 	room_goto(game_over);
 
 }
-
+if(score >= 16){
+	room_goto(win);
+}
 
 //Player Motion-----------------------------------------------
 
